@@ -68,9 +68,6 @@
     margin-top: 6%; 
     gap: 12px;
   
-    
-
-
 }
 .header-text{
     flex: 1 1 50%;
@@ -119,11 +116,13 @@
     display: flex;
     justify-content: center;
     background-color: #d6caca;
+    padding-bottom: 20px;
    
 }
 .mid-sec{
     width: 90%;
     text-align: center;
+    margin-bottom: 40px;
    
    
 }
@@ -150,4 +149,26 @@
 }
 .prod-images h3{
     padding-top: 10px;
+}
+.quote-section{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+.quote{
+    width: 50%;
+    text-align: left;
+    margin-top: 30px;
+    
+
+    
+}
+.quote i{
+    font-size: 24px;
+    
+}
+.quote h3{
+    display: flex;
+    justify-content: flex-end;
 }
