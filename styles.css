@@ -10,4 +10,34 @@
     min-height: 100vh;
     background-attachment: fixed;
     background-size: 100%;
+    width: 100%;
+    justify-content: center;
+    
+    
 }
+.nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    
+}
+.nav-bar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-bar img{
+    width: 15%;
+}
+.nav-links, .nav-links a{
+    list-style-type: none;
+    display: flex;
+    gap: 28px;
+    text-decoration: none;
+    font-size: 2rem;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+}
+
